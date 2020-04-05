@@ -99,8 +99,8 @@ class TicTacToe
     @board.all? { |space| space != "" && space != " " }
   end
   
-  def draw?(board)
-    full?(board) && !won?(board)
+  def draw?
+    full? && !won?
   end
   
   def over?(board)
