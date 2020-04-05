@@ -107,9 +107,9 @@ class TicTacToe
     won? || full? || draw?
   end
   
-  def winner(board)
-    if won?(board)
-      board[won?(board).first]
+  def winner
+    if won?
+      @board[won?.first]
     else
       nil
     end
