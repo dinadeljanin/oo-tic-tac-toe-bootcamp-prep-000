@@ -1,4 +1,4 @@
-
+class TicTacToe
 
 # WIN_COMBINATIONS = [
 #   # horizontal
