@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   ]
 
 def initialize
-  @board = Array.new(9, " ")
+  @board = Array.new(9, " ") # make new array with 9 empty strings
 end
 
 def display_board(board)
