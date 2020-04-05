@@ -95,7 +95,7 @@ class TicTacToe
     return false # empty board
   end
   
-  def full?(board)
+  def full?
     board.all? { |space| space != "" && space != " " }
   end
   
