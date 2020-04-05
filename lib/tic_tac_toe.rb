@@ -76,7 +76,7 @@ class TicTacToe
     end
   end
   
-  def won?(board)
+  def won?
     # for each win_combination in WIN_COMBINATIONS 
     WIN_COMBINATIONS.each do |win_combination|
       # copypasta
