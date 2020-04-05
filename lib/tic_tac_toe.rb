@@ -60,7 +60,7 @@ class TicTacToe
   
   def turn_count
     count = 0
-    board.each do |turn|
+    @board.each do |turn|
       if turn == "X" || turn == "O"
         count += 1
       end
