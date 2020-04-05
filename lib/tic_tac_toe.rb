@@ -115,12 +115,12 @@ class TicTacToe
     end
   end
   
-  def play(board)
-    until over?(board)
-      turn(board)
+  def play
+    until over?
+      turn
     end
-    if won?(board) # calls on won? and returns who won
-      puts "Congratulations #{winner(board)}!"
+    if won? # calls on won? and returns who won
+      puts "Congratulations #{winner}!"
     else # cause a draw is determined in over? note to self in the future: that was not a question
       puts "Cat's Game!"
     end
